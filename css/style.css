@@ -1,0 +1,53 @@
+/*color scheme
+
+#90ADC6 -
+
+*/
+
+body,
+html {
+    height: 100%;
+    margin: 0;
+    /*    two back up fonts */
+    font-family: 'Open Sans', serif, sans-serif;
+}
+
+ .masthead-heading,
+ .masthead-intro {
+     text-align: center;
+ }
+  .masthead {
+      padding: 6em 0;
+  }
+
+  .masthead-intro {
+      margin-bottom: 0.1em;
+  }
+
+  .masthead-heading {
+      margin-top: -0.2em;
+  }
+
+  .masthead {
+    height: 100vh;
+    min-height: 500px;
+    background-image: url('https://images.pexels.com/photos/3130060/pexels-photo-3130060.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+    filter: grayscale(70%);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  h1 {
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+     font-style: italic;
+     padding-bottom: 20px;
+  }
+
+/*override bootstrap button*/
+.btn-warning, .btn-warning:hover, .btn-warning:active, .btn-primary:visited {
+    background-color: #ABEA7C !important;
+    color: white !important;
+    text-shadow: 1px 1px 3px #000000 !important;
+}
