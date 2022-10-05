@@ -1,0 +1,194 @@
+<!doctype html>
+<html lang="en">
+<head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- favicon-->
+        <link rel="icon" href="asset/logo.png" type="image/x-icon">
+        <!--Override CSS-->
+        <link href="css/style.css" rel="stylesheet">
+        <link href="css/substyle3.css" rel="stylesheet">
+        <!-- Bootstrap CSS -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <!-- Add icon library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>About City</title>
+
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+    </style>
+</head>
+<body>
+
+<!--Navigation bar-->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">
+            <img src="asset/webname.png" alt="Home Kong Banner" width="200" height="24" class="d-inline-block align-text-top">
+        </a>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+                <!--Travel -->
+                <li class="nav-item">
+                    <a class="nav-link" href="travelMain.html">Travel</a>
+                </li>
+                <!--Transport -->
+                <li class="nav-item">
+                    <a class="nav-link" href="transMain.html">Transportation</a>
+                </li>
+                <!--Shopping -->
+                <li class="nav-item">
+                    <a class="nav-link" href="shopMain.html">Shopping</a>
+                </li>
+                <!--Food -->
+
+                <!--Accommodation -->
+                <li class="nav-item">
+                    <a class="nav-link" href="accommMain.html">Accommodation</a>
+                </li>
+                <!--Food -->
+                <li class="nav-item">
+                    <a class="nav-link" href="foodMain.html">Food</a>
+                </li>
+                <!--About city -->
+                <li>
+                    <a class="nav-link" href="aboutMain.html">About City</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+
+<main class="container">
+    <div class="p-4 p-md-5 mb-4 text-white rounded bg-success">
+        <div class="col-md-6 px-0">
+            <h1 class="display-4 fst-italic">Traveling to Hong Kong during the Pandemic</h1>
+            <p class="lead my-3">Check the latest update on what to do before and upon your arrival. </p>
+            <p class="lead mb-0"><a href="https://www.coronavirus.gov.hk/eng/inbound-travel.html" target="_blank" class="text-white fw-bold">View details... </a></p>
+        </div>
+    </div>
+
+    <div class="row mb-2">
+        <div class="col-md-6">
+            <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                <div class="col p-4 d-flex flex-column position-static">
+                    <strong class="d-inline-block mb-2 text-danger">TYPHOON</strong>
+                    <h3 class="mb-0">Typhoon No.8 Signal</h3>
+                    <div class="mb-1 text-muted">8 hours ago</div>
+                    <p class="card-text mb-auto">Tropical Cylcone Kompasu has entered Hong Kong and will gradullay weaken by the next morning</p>
+                    <a href="https://www.hko.gov.hk/en/index.html" target="_blank" class="stretched-link">Get the last update</a>
+                </div>
+                <div class="col-auto d-none d-lg-block">
+                    <img class="bd-placeholder-img" width="200" height="250" src = "https://upload.wikimedia.org/wikipedia/commons/4/49/No._8_Northeast_Gale_or_Storm_Signal.png" alt="typhoon no.8 signal">
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                <div class="col p-4 d-flex flex-column position-static">
+                    <strong class="d-inline-block mb-2 text-danger">CANTONESE</strong>
+                    <h3 class="mb-0">Survival Cantonese</h3>
+                    <div class="mb-1 text-muted">2 days ago</div>
+                    <p class="mb-auto">Prepare yourself for a daily conversation with locals</p>
+                    <a href="https://www.youtube.com/watch?v=w10my9tG9uY" target="_blank" class="stretched-link">Watch a video</a>
+                </div>
+                <div class="col-auto d-none d-lg-block">
+                    <img class="bd-placeholder-img" width="200" height="250" src = "https://i.ytimg.com/vi/w10my9tG9uY/maxresdefault.jpg" alt="Cantonese Conversation">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <form>
+        <div class="form-row align-items-center">
+            <div class="col-sm-3 my-1">
+                <label for="inputName">Name</label>
+                <label class="sr-only" for="inputName">Name</label>
+                <input type="text" class="form-control" id="inputName" placeholder="Timothee Chalamet">
+            </div>
+        <div class="form-group">
+            <label for="InputEmail">Email address</label>
+            <input type="email" class="form-control" id="InputEmail" aria-describedby="InputEmail" placeholder="Enter email">
+            <small id="emailNote" class="form-text text-muted">We'll never share your email with anyone else.</small>
+        </div>
+            <div class="form-group">
+                <label for="FormTextarea">Please type your inquiry below: </label>
+                <textarea class="form-control" id="FormTextarea" rows="3"></textarea>
+            </div>
+        <div class="form-check">
+            <input type="checkbox" class="form-check-input" id="newsCheck">
+            <label class="form-check-label" for="newsCheck">I would like to receive monthly newsletter from Home Kong website. </label>
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+        </div>
+    </form>
+</main>
+
+<!-- Footer -->
+<footer class="bg-dark text-center text-white">
+    <!-- Grid container -->
+    <div class="container p-4">
+        <!-- Section: Social media -->
+        <section class="mb-4">
+            <!-- Facebook -->
+            <a class="btn btn-outline-light btn-floating m-1" href="https://www.facebook.com/hk.discoverhongkong/?brand_redir=114979501871035" target="_blank"><i class="fa fa-facebook"></i></a>
+            <!-- Twitter -->
+            <a class="btn btn-outline-light btn-floating m-1" href="https://twitter.com/discoverhk" target="_blank"><i class="fa fa-twitter"></i></a>
+            <!-- Youtube -->
+            <a class="btn btn-outline-light btn-floating m-1" href="https://www.youtube.com/user/hongkong" target="_blank"><i class="fa fa-youtube"></i></a>
+            <!-- Instagram -->
+            <a class="btn btn-outline-light btn-floating m-1" href="https://www.instagram.com/discoverhongkong/" target="_blank"><i class="fa fa-instagram"></i></a>
+        </section>
+
+        <!-- Section: Form -->
+        <section>
+            <form action="index.html">
+                <div class="row d-flex justify-content-center">
+                    <div class="col-auto">
+                        <p class="pt-2">
+                            <strong>Sign up for our newsletter</strong>
+                        </p>
+                    </div>
+
+                    <div class="col-md-5 col-12">
+                        <!-- Email input -->
+                        <div class="form-outline form-white mb-4">
+                            <input type="email" id="subscript" placeholder="Enter email address" class="form-control" />
+                        </div>
+                    </div>
+                    <div class="col-auto">
+                        <!-- Submit button -->
+                        <button type="submit" class="btn btn-outline-light mb-4">
+                            Subscribe
+                        </button>
+                    </div>
+                </div>
+            </form>
+        </section>
+
+    </div>
+    <!-- Copyright -->
+    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+        © 2021 Copyright: Home Kong
+    </div>
+
+</footer>
+
+
+
+</body>
+</html>
